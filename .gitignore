@@ -1,0 +1,10 @@
+# 本地打包工作目录（安装包只作为 Release 附件上传，不进 git）
+_release/
+*.apk
+*.zip
+*.exe
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
