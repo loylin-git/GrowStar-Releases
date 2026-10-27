@@ -1,15 +1,15 @@
-# GrowthMark · 高神马
+# GrowStar · 成长星
 
 **English** | [简体中文](README.zh-CN.md)
 
-![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/network-none-success)
 ![Languages](https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-orange)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 <p align="center">
-  <img src="assets/icon.png" width="120" alt="GrowthMark icon" />
+  <img src="assets/icon.png" width="120" alt="GrowStar icon" />
 </p>
 
 A private, offline-first growth tracker for children and teens. Log height and weight, watch them move along **CDC / WHO percentile curves**, and get an **adult height estimate** — all stored locally on your device, with **no network access, no account, and no tracking**.
@@ -20,10 +20,10 @@ A private, offline-first growth tracker for children and teens. Log height and w
 
 | Platform | File | Notes |
 | --- | --- | --- |
-| Android | [**GrowthMark-v1.0.0-android.apk**](https://github.com/loylin-git/GrowthMark-Releases/releases/latest/download/GrowthMark-v1.0.0-android.apk) · 40 MB | Android 7.0 (API 24) or later. Sideloaded — see [Installing](#installing) |
-| Windows | [**GrowthMark-v1.0.0-windows-x64.zip**](https://github.com/loylin-git/GrowthMark-Releases/releases/latest/download/GrowthMark-v1.0.0-windows-x64.zip) · 64-bit | Windows 10 build 19041 or later. Unzip and run `GrowthApp.exe` |
+| Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
+| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowthApp.exe` |
 
-Browse all versions: **[Releases →](https://github.com/loylin-git/GrowthMark-Releases/releases)**
+Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
 ---
 
@@ -123,5 +123,5 @@ Reference growth data is used read-only for local computation (see Disclaimer ab
 
 ## Links
 
-- **Releases & downloads:** <https://github.com/loylin-git/GrowthMark-Releases/releases>
-- **Issues & feedback:** <https://github.com/loylin-git/GrowthMark-Releases/issues>
+- **Releases & downloads:** <https://github.com/loylin-git/GrowStar-Releases/releases>
+- **Issues & feedback:** <https://github.com/loylin-git/GrowStar-Releases/issues>

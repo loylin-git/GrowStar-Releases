@@ -1,15 +1,15 @@
-# GrowthMark · 高神马
+# GrowStar · 成长星
 
 [English](README.md) | **简体中文**
 
-![Version](https://img.shields.io/badge/版本-1.0.0-brightgreen)
+![Version](https://img.shields.io/badge/版本-1.0.1-brightgreen)
 ![Platform](https://img.shields.io/badge/平台-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/联网-无-success)
 ![Languages](https://img.shields.io/badge/界面语言-简%20%2F%20繁%20%2F%20英-orange)
 ![License](https://img.shields.io/badge/授权-专有-lightgrey)
 
 <p align="center">
-  <img src="assets/icon.png" width="120" alt="高神马图标" />
+  <img src="assets/icon.png" width="120" alt="成长星图标" />
 </p>
 
 一款**纯本地**的儿童青少年成长记录工具：记录身高体重，对照 **CDC / WHO 百分位曲线** 看生长趋势，并估算**成年身高**。数据只保存在你的设备里，**不联网、不注册、不采集**。
@@ -20,10 +20,10 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| Android | [**GrowthMark-v1.0.0-android.apk**](https://github.com/loylin-git/GrowthMark-Releases/releases/latest/download/GrowthMark-v1.0.0-android.apk) · 40 MB | Android 7.0（API 24）及以上，侧载安装，见[安装说明](#安装说明) |
-| Windows | [**GrowthMark-v1.0.0-windows-x64.zip**](https://github.com/loylin-git/GrowthMark-Releases/releases/latest/download/GrowthMark-v1.0.0-windows-x64.zip) · 64 位 | Windows 10 build 19041 及以上，解压后运行 `GrowthApp.exe` |
+| Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
+| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowthApp.exe` |
 
-全部版本：**[Releases →](https://github.com/loylin-git/GrowthMark-Releases/releases)**
+全部版本：**[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
 ---
 
@@ -123,5 +123,5 @@ CDC 与 WHO 的名称与数据归各自机构所有。本应用是独立的第�
 
 ## 相关链接
 
-- **版本与下载：** <https://github.com/loylin-git/GrowthMark-Releases/releases>
-- **问题反馈：** <https://github.com/loylin-git/GrowthMark-Releases/issues>
+- **版本与下载：** <https://github.com/loylin-git/GrowStar-Releases/releases>
+- **问题反馈：** <https://github.com/loylin-git/GrowStar-Releases/issues>

@@ -2,6 +2,26 @@
 
 本仓库只发布文档与安装包，所有版本号与 App 内的「关于 → 版本」一致。
 
+## v1.0.1 — 2026-10-27
+
+**品牌与界面**
+
+- 应用更名为 **成长星 / GrowStar**（此前为 高神马 / GrowthMark），同步更新 Android 启动器名、Windows 窗口标题与关于页
+- 更换应用图标：蓝底绿色小孩 + 黄色星星身高尺
+- 图表页顶部右侧的身高 / 体重 / BMI 三个图标按钮，改为**图表上方横向并排的三个标签页**（身高 / 体重 / BMI），选中项用主题色淡底高亮
+- 移除启动画面（splash），启动即进主界面
+
+**体积优化**
+
+- Android 关闭 AOT 编译，并只保留 `armeabi-v7a` / `arm64-v8a` 两种 ABI，安装包显著减小、构建也更快
+- Windows 分发包排除调试符号与 100 多个非中英文的本地化资源目录（缺失时回落到英文）
+
+**其他**
+
+- 仓库更名为 `GrowStar`（源码，私有）与 `GrowStar-Releases`（发布，公开），设置页「检查更新」与分享链接同步
+
+---
+
 ## v1.0.0 — 2026-10-26
 
 首个发布版本。
@@ -46,5 +66,5 @@
 ## 关于本仓库
 
 - 源码不公开，仅用于内部版本管理；本仓库只发布文档与安装包。
-- 安装包通过 [Releases](https://github.com/loylin-git/GrowthMark-Releases/releases) 附件分发，不写入 git 历史，避免仓库随版本膨胀。
+- 安装包通过 [Releases](https://github.com/loylin-git/GrowStar-Releases/releases) 附件分发，不写入 git 历史，避免仓库随版本膨胀。
 - 发布产物不含任何真实个人数据：内置数据库仅含 CDC / WHO 公开参考数据与 Khamis-Roche 系数。
