@@ -21,7 +21,7 @@ A private, offline-first growth tracker for children and teens. Log height and w
 | Platform | File | Notes |
 | --- | --- | --- |
 | Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
-| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowthApp.exe` |
+| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowStar.exe` |
 
 Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -43,7 +43,7 @@ Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Rel
 ### Prediction
 - Under 4 years old, or with no measurement yet: **mid-parental (Tanner) method**.
 - From 4 years old with a measurement: **Khamis-Roche** blended with the child's **current percentile position**, weighted by age — so the estimate starts anchored to the real measurement and converges to a stable adult value.
-- Adult endpoint fixed at **19 years**; the curve never predicts a decrease in height.
+- Adult endpoint fixed at **19 years**.
 
 ### Data & settings
 - **Import / export** in **JSON (default)**, CSV, XLSX, or SQLite — covering users (including avatars as embedded base64), growth records, and app settings. CSV is auto-detected as UTF-8, UTF-8 BOM, or GBK/GB18030, so Excel files open without mojibake.
@@ -85,7 +85,7 @@ The future curve follows the `R` percentile line with a time remap, so it starts
 
 **Android** — the APK is not distributed through Google Play, so allow installation from your browser/files app when prompted ("Install unknown apps"), then open the APK. Android may show a Play Protect notice for sideloaded apps; choose **Install anyway**.
 
-**Windows** — unzip to any folder and run `GrowthApp.exe`. The build is self-contained (includes the Windows App SDK runtime), so nothing else needs installing. Because it is not signed with a commercial certificate, SmartScreen may say "Windows protected your PC" — click **More info → Run anyway**. Your data is stored under `%LOCALAPPDATA%`, not next to the exe, so it survives moving the folder.
+**Windows** — unzip to any folder and run `GrowStar.exe`. The build is self-contained (includes the Windows App SDK runtime), so nothing else needs installing. Because it is not signed with a commercial certificate, SmartScreen may say "Windows protected your PC" — click **More info → Run anyway**. Your data is stored under `%LOCALAPPDATA%`, not next to the exe, so it survives moving the folder.
 
 ---
 

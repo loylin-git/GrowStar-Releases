@@ -21,7 +21,7 @@
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
 | Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
-| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowthApp.exe` |
+| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowStar.exe` |
 
 全部版本：**[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -43,7 +43,7 @@
 ### 预测
 - 未满 4 岁或尚无实测：使用**中亲身高法（Tanner 公式）**。
 - 4 岁及以上且有实测身高：**Khamis-Roche 法**与**当前百分位位置**按年龄加权混合，起点锚定真实测量值，随年龄增长逐步收敛。
-- 成年终点统一取 **19 岁**；曲线不会预测身高下滑。
+- 成年终点统一取 **19 岁**。
 
 ### 数据与设置
 - **导入导出**支持 **JSON（默认）**、CSV、XLSX、SQLite，可覆盖用户表（头像以 base64 内嵌）、成长数据表与应用设置表。CSV 自动识别 UTF-8 / UTF-8 BOM / GBK(GB18030) 编码，Excel 另存的文件不会乱码。
@@ -85,7 +85,7 @@
 
 **Android**：APK 未上架应用商店，安装时请按提示允许「安装未知应用」（不同品牌在设置 → 安全/应用管理里授权）。若 Play Protect 提示，选择**仍要安装**。
 
-**Windows**：解压到任意文件夹后双击 `GrowthApp.exe`。程序为自包含版本（已打包 Windows App SDK 运行时），无需另装 .NET。由于未使用商业签名证书，SmartScreen 可能提示「Windows 已保护你的电脑」，点击**更多信息 → 仍要运行**即可。数据保存在 `%LOCALAPPDATA%` 下，不随文件夹移动而丢失。
+**Windows**：解压到任意文件夹后双击 `GrowStar.exe`。程序为自包含版本（已打包 Windows App SDK 运行时），无需另装 .NET。由于未使用商业签名证书，SmartScreen 可能提示「Windows 已保护你的电脑」，点击**更多信息 → 仍要运行**即可。数据保存在 `%LOCALAPPDATA%` 下，不随文件夹移动而丢失。
 
 ---
 
