@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-![Version](https://img.shields.io/badge/版本-1.0.1-brightgreen)
+![Version](https://img.shields.io/badge/版本-1.1.0-brightgreen)
 ![Platform](https://img.shields.io/badge/平台-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/联网-无-success)
 ![Languages](https://img.shields.io/badge/界面语言-简%20%2F%20繁%20%2F%20英-orange)
@@ -20,8 +20,9 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
-| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowStar.exe` |
+| Android | [**GrowStar-v1.1.0-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-android.apk) · 25 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
+| Android（商店上传包） | [**GrowStar-v1.1.0-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-android.aab) · 25 MB | App Bundle，不能直接安装，仅用于上传 Google Play |
+| Windows | [**GrowStar-v1.1.0-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-windows-x64.zip) · 72 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowStar.exe` |
 
 全部版本：**[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -59,6 +60,7 @@
 - 应用**不含任何联网代码**：没有 HTTP 客户端、没有广告、没有统计与崩溃上报，连 `INTERNET` 权限都没有声明。
 - 所有数据保存在本机 SQLite 数据库与应用数据目录下的头像文件夹。
 - 唯一权限是导入导出与选择头像时的文件读取（Android 12 及以下）。
+- 完整版：**[隐私政策（网页）→](https://loylin-git.github.io/GrowStar-Releases/privacy.zh-CN.html)**
 - **删除用户、清除应用数据或卸载会永久删除数据**，请定期用导出功能自行备份。
 
 ---

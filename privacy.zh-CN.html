@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>隐私政策 · 成长星 GrowStar</title>
+<style>
+  :root { --fg:#1c2530; --muted:#5b6b7c; --accent:#3498db; --bg:#ffffff; --card:#f6f8fa; --line:#e2e8f0; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 16px 64px; background:var(--bg); color:var(--fg);
+         font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Microsoft YaHei",Roboto,sans-serif; }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { text-align:center; padding: 40px 0 24px; }
+  header img { width:96px; height:96px; border-radius:24px; }
+  h1 { font-size:26px; margin:16px 0 4px; }
+  .sub { color:var(--muted); font-size:14px; }
+  .lang { margin:18px 0 8px; font-size:14px; }
+  .lang a { color:var(--accent); text-decoration:none; margin:0 8px; }
+  h2 { font-size:19px; margin:32px 0 10px; padding-top:10px; border-top:1px solid var(--line); }
+  h2:first-of-type { border-top:none; }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:16px 0; }
+  .updated { color:var(--muted); font-size:13px; margin-top:6px; }
+  code { background:var(--card); padding:1px 5px; border-radius:4px; font-size:14px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  footer a { color:var(--accent); }
+  .note { border-left:4px solid var(--accent); padding-left:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="assets/icon.png" alt="成长星图标" />
+    <h1>隐私政策</h1>
+    <div class="sub">成长星 GrowStar · 儿童成长记录与身高预测</div>
+    <div class="lang"><strong>简体中文</strong> · <a href="privacy.html">English</a></div>
+    <div class="updated">最近更新：2026 年 10 月 27 日</div>
+  </header>
+
+  <div class="card">
+    <strong>一句话说明：</strong>本应用所有数据都保存在你自己的设备里。程序<b>不含任何联网代码</b>，甚至没有声明
+    Android 的 <code>INTERNET</code> 权限，因此在技术上无法上传、同步或分享任何内容。没有账号、没有广告、没有统计，也没有任何第三方 SDK。
+  </div>
+
+  <h2>一、我们收集什么</h2>
+  <p><b>什么都不收集。</b>应用从不连接任何服务器。你录入的内容全部保存在设备的应用私有存储中：</p>
+  <ul>
+    <li><b>孩子档案</b>——姓名、性别、出生日期、父母身高、主题颜色，以及你自行选择设定的头像照片。</li>
+    <li><b>测量记录</b>——带日期时间的身高、体重数据。</li>
+    <li><b>应用设置</b>——语言、单位（厘米/英寸、千克/磅）、24 小时制、参考数据源选择。</li>
+  </ul>
+  <p>这些信息只在你自己的设备上用于绘制生长曲线和估算成年身高。应用不具备向外传输数据的能力，因此不会发生任何传输。</p>
+
+  <h2>二、权限</h2>
+  <ul>
+    <li><b>照片/媒体（只读，仅 Android 12 及以下）</b>——仅在你为孩子选择头像照片时使用；Android 13 及以上改用系统照片选择器，无需任何权限。选中的照片会缩放至 512 像素后存入应用私有目录，原图不保留、不上传。</li>
+    <li><b>存储</b>——仅在你导入或导出自己的备份文件（CSV / XLSX / SQLite / JSON）时使用，不会读取其他应用的数据。</li>
+    <li><b>联网</b>——<em>未申请</em>。应用没有联网能力。</li>
+  </ul>
+
+  <h2>三、与第三方共享</h2>
+  <p>不共享。没有统计分析、没有崩溃上报、没有广告 SDK、没有内置浏览器。唯一会离开应用的数据，是你<b>主动</b>发出的：</p>
+  <ul>
+    <li>你通过系统分享或保存到自己存储空间的导出文件；</li>
+    <li>你在图表页主动分享的生长曲线截图；</li>
+    <li>你在设置页主动分享的应用下载链接。</li>
+  </ul>
+
+  <h2>四、儿童信息</h2>
+  <p>本应用是供家长或监护人记录自己孩子成长数据的工具，并非面向儿童的产品，不含社交功能、不含广告、不做任何用户画像。
+  儿童数据由使用该设备的成年人录入，保存在该设备的私有存储中，开发者与任何第三方都不会获取。</p>
+
+  <h2>五、存储与保留</h2>
+  <p>数据保存在设备的应用私有目录中（Windows 位于 <code>%LOCALAPPDATA%</code> 下，Android 位于应用内部存储），
+  保留到你主动删除为止。删除档案、清除应用数据或卸载应用都会永久删除这些记录——云端没有副本，开发者也不持有备份。</p>
+  <p class="note">正因为没有云端备份，如需在设备之外留存一份，请定期使用「设置 → 导入导出」导出数据。</p>
+
+  <h2>六、你的权利</h2>
+  <p>由于数据完全在本地，查看、更正、导出、删除都由你在应用内直接完成，无需向我们提出请求。如需协助请联系文末地址。</p>
+
+  <h2>七、参考数据与医疗免责</h2>
+  <p>生长曲线与成年身高估算在你的设备上基于公开参考数据（CDC 2000、WHO 2007 生长参考标准及 Khamis–Roche 方法）计算。
+  本应用是家庭自用记录工具，不是医疗器械；百分位与预测值是基于人群统计的估算，不构成医疗建议，也不能替代医师判断，
+  孩子生长发育相关问题请咨询医生。CDC 与 WHO 的名称与数据归各自机构所有，本应用未经其授权或背书。</p>
+
+  <h2>八、政策更新</h2>
+  <p>如本政策有变更，会在本页发布更新后的版本并修改「最近更新」日期。应用本身仍将保持数据全部本地存储。</p>
+
+  <h2>九、联系方式</h2>
+  <p>隐私相关问题请提交 issue：
+  <a href="https://github.com/loylin-git/GrowStar-Releases/issues">github.com/loylin-git/GrowStar-Releases/issues</a>。</p>
+
+  <footer>
+    成长星 GrowStar —— Android 与 Windows 上的离线、私密成长记录工具。
+    <br />源码不公开；<a href="https://github.com/loylin-git/GrowStar-Releases">本仓库</a>仅用于发布说明与安装包下载。
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy · GrowStar</title>
+<style>
+  :root { --fg:#1c2530; --muted:#5b6b7c; --accent:#3498db; --bg:#ffffff; --card:#f6f8fa; --line:#e2e8f0; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 16px 64px; background:var(--bg); color:var(--fg);
+         font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Microsoft YaHei",Roboto,sans-serif; }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { text-align:center; padding: 40px 0 24px; }
+  header img { width:96px; height:96px; border-radius:24px; }
+  h1 { font-size:26px; margin:16px 0 4px; }
+  .sub { color:var(--muted); font-size:14px; }
+  .lang { margin:18px 0 8px; font-size:14px; }
+  .lang a { color:var(--accent); text-decoration:none; margin:0 8px; }
+  h2 { font-size:19px; margin:32px 0 10px; padding-top:10px; border-top:1px solid var(--line); }
+  h2:first-of-type { border-top:none; }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:16px 0; }
+  .updated { color:var(--muted); font-size:13px; margin-top:6px; }
+  code { background:var(--card); padding:1px 5px; border-radius:4px; font-size:14px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  footer a { color:var(--accent); }
+  .note { border-left:4px solid var(--accent); padding-left:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="assets/icon.png" alt="GrowStar icon" />
+    <h1>Privacy Policy</h1>
+    <div class="sub">GrowStar · Children's growth tracker &amp; height prediction</div>
+    <div class="lang"><a href="privacy.zh-CN.html">简体中文</a> · <strong>English</strong></div>
+    <div class="updated">Last updated: October 27, 2026</div>
+  </header>
+
+  <div class="card">
+    <strong>In short:</strong> GrowStar stores everything on your own device. It has no network code at all — it does not
+    declare the Android <code>INTERNET</code> permission — so it cannot upload, sync, or share anything. There are no
+    accounts, no ads, no analytics, and no third-party SDKs.
+  </div>
+
+  <h2>1. What we collect</h2>
+  <p><strong>Nothing.</strong> No server is contacted at any point. All data you enter stays in the app's private
+  storage on your device:</p>
+  <ul>
+    <li><strong>Child profiles</strong> — name, sex, birth date, parent heights, chosen theme colour, and an optional photo you pick for the avatar.</li>
+    <li><strong>Measurements</strong> — height and weight entries with a date and time.</li>
+    <li><strong>Settings</strong> — language, units (cm/in, kg/lb), 24-hour time, and reference-data source preference.</li>
+  </ul>
+  <p>This information is processed entirely on your device to draw growth curves and estimate adult height. It is never transmitted anywhere, because the app contains no code capable of transmitting it.</p>
+
+  <h2>2. Permissions</h2>
+  <ul>
+    <li><strong>Photos / media (read only, Android 12 and older)</strong> — used solely when you choose an avatar picture. On Android 13+ the system photo picker is used, which requires no permission. Pictures are downscaled to 512 px and stored inside the app's private folder; the original file is never kept or uploaded.</li>
+    <li><strong>Storage</strong> — used only when you import or export your own backup files (CSV / XLSX / SQLite / JSON). No other app data is read.</li>
+    <li><strong>Network</strong> — <em>not requested</em>. The app has no internet access.</li>
+  </ul>
+
+  <h2>3. Sharing with third parties</h2>
+  <p>None. There is no analytics, no crash reporting, no advertising SDK, and no embedded browser. The only data that ever leaves the app is what <em>you</em> explicitly send:</p>
+  <ul>
+    <li>an export file you share through the Android share sheet or save to your own storage;</li>
+    <li>a screenshot of a growth chart you share from the chart page;</li>
+    <li>the app's download link you share from Settings.</li>
+  </ul>
+
+  <h2>4. Children's information</h2>
+  <p>GrowStar is a tool for parents and guardians to record their own children's growth. The app is not directed at
+  children as an audience, contains no social features, no advertising and no behavioural profiling. Data about a child
+  is entered by the adult using the device and remains in that device's private storage; it is never collected by the
+  developer or anyone else.</p>
+
+  <h2>5. Data storage and retention</h2>
+  <p>Data lives in the app's private data directory on your device (on Windows, under <code>%LOCALAPPDATA%</code>; on
+  Android, in the app's internal storage). It is retained until you delete it. Deleting a profile, clearing the app's
+  storage, or uninstalling the app removes the data permanently — there is no cloud copy and no backup held by us.</p>
+  <p class="note">Because there is no cloud backup, please export your data periodically (Settings → Import / Export)
+  if you want a copy outside the device.</p>
+
+  <h2>6. Your rights</h2>
+  <p>Since all data is local, you already have full control: view, correct, export, or delete any record inside the
+  app at any time. If you need help with any of these, contact the address below.</p>
+
+  <h2>7. Reference data and medical disclaimer</h2>
+  <p>Growth curves and adult-height estimates are computed on your device from published reference data
+  (CDC 2000 and WHO 2007 growth references, and the Khamis–Roche method). The app is a household record-keeping tool,
+  not a medical device. Percentiles and predictions are statistical estimates for populations and do not constitute
+  medical advice or a diagnosis; always consult a doctor about your child's growth. The names CDC and WHO belong to
+  their respective organisations, which have not authorised or endorsed this app.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published on this page with a new "Last updated" date. The app
+  itself will continue to keep all data on your device.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about privacy: open an issue at
+  <a href="https://github.com/loylin-git/GrowStar-Releases/issues">github.com/loylin-git/GrowStar-Releases/issues</a>.</p>
+
+  <footer>
+    GrowStar · 成长星 — an offline, private growth tracker for Android and Windows.
+    <br />Source code is not public; <a href="https://github.com/loylin-git/GrowStar-Releases">this repository</a> hosts release notes and downloads only.
+  </footer>
+</div>
+</body>
+</html>

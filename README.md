@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-![Version](https://img.shields.io/badge/version-1.0.1-brightgreen)
+![Version](https://img.shields.io/badge/version-1.1.0-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/network-none-success)
 ![Languages](https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-orange)
@@ -20,8 +20,9 @@ A private, offline-first growth tracker for children and teens. Log height and w
 
 | Platform | File | Notes |
 | --- | --- | --- |
-| Android | [**GrowStar-v1.0.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-android.apk) · 19 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
-| Windows | [**GrowStar-v1.0.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.0.1-windows-x64.zip) · 37 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowStar.exe` |
+| Android | [**GrowStar-v1.1.0-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-android.apk) · 25 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
+| Android (store bundle) | [**GrowStar-v1.1.0-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-android.aab) · 25 MB | App Bundle for Google Play uploads only — cannot be installed directly |
+| Windows | [**GrowStar-v1.1.0-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.0-windows-x64.zip) · 72 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowStar.exe` |
 
 Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -60,6 +61,7 @@ Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Rel
 - All data lives in a local SQLite database and an on-device avatars folder.
 - The only permission requested is file read access for import/export and avatar picking (Android ≤ 12).
 - Deleting a child's profile, clearing app data, or uninstalling **permanently removes** the data — use Export regularly to keep your own backup.
+- Full text: **[Privacy Policy (web) →](https://loylin-git.github.io/GrowStar-Releases/privacy.html)**
 
 ---
 

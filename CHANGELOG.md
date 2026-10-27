@@ -2,6 +2,31 @@
 
 本仓库只发布文档与安装包，所有版本号与 App 内的「关于 → 版本」一致。
 
+## v1.1.0 — 2026-10-27
+
+**平台升级**
+
+- 运行时升级：**.NET 8 → .NET 10**，**MAUI 8 → MAUI 10**
+- Android **targetSdkVersion 34 → 36**（Android 16），满足 Google Play 自 2026-08-31 起对新应用与更新的强制要求
+- 支持 **16 KB 页面大小**（升级 SQLite 原生库），Android 16 起必需
+- Android 同时提供 **APK**（直接安装 / GitHub 分发）与 **AAB**（Google Play 上传）两种包
+- Windows 仍为免打包自包含版本，可执行文件 `GrowStar.exe`
+
+**图表修复**
+
+- 修复 Android 上**双指捏合无法缩放**：MAUI 的 Pan / Tap / Pinch 三个手势挂在同一控件时会互相抢事件，
+  改为 Android 原生触摸监听统一处理（单指平移、双指缩放、单击读数、双击放大）
+- **默认横坐标范围由 20 年改为 2 年**（窗口右端对齐到"今天"），曲线不再被压成几乎水平的细线；
+  需要纵览全部数据时可用缩小按钮或双指缩小回到全览
+
+**其他**
+
+- 新增网页版隐私政策（中 / 英双语），供应用商店资料填写链接：
+  https://loylin-git.github.io/GrowStar-Releases/privacy.zh-CN.html
+- 版本号 1.1.0（versionCode 3）
+
+---
+
 ## v1.0.1 — 2026-10-27
 
 **品牌与界面**
