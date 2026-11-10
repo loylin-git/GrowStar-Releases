@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-![Version](https://img.shields.io/badge/版本-1.1.1-brightgreen)
+![Version](https://img.shields.io/badge/版本-1.1.2-brightgreen)
 ![Platform](https://img.shields.io/badge/平台-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/联网-无-success)
 ![Languages](https://img.shields.io/badge/界面语言-简%20%2F%20繁%20%2F%20英-orange)
@@ -20,9 +20,9 @@
 
 | 平台 | 安装包 | 说明 |
 | --- | --- | --- |
-| Android | [**GrowStar-v1.1.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-android.apk) · 25 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
-| Android（商店上传包） | [**GrowStar-v1.1.1-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-android.aab) · 24 MB | App Bundle，不能直接安装，仅用于上传 Google Play |
-| Windows | [**GrowStar-v1.1.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-windows-x64.zip) · 71 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowStar.exe` |
+| Android | [**GrowStar-v1.1.2-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-android.apk) · 25 MB | Android 7.0（API 24）及以上，ARM / ARM64 架构，侧载安装，见[安装说明](#安装说明) |
+| Android（商店上传包） | [**GrowStar-v1.1.2-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-android.aab) · 24 MB | App Bundle，不能直接安装，仅用于上传 Google Play |
+| Windows | [**GrowStar-v1.1.2-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-windows-x64.zip) · 71 MB | Windows 10 build 19041 及以上，x64，解压后运行 `GrowStar.exe` |
 
 全部版本：**[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -40,7 +40,7 @@
 - 叠加 **CDC 2000 / WHO 2007** 的 **P3 / P15 / P50 / P85 / P97** 参考百分位线，图表内一键切换标准；三种指标默认均以 CDC 2000 为参考。
 - 从最近一次实测延伸出的**预测曲线（绿色虚线）**与**预测成年身高标签（绿色）**；**实测记录保持红色**，已记录与预测一眼区分。
 - 横坐标默认显示最近 **5 年**（可缩小到最多 20 年全览），纵轴自动把曲线摆到画面中央；默认量程身高 30~180 cm、体重 0~80 kg、BMI 10~30，实测超出时按实际数据自动扩展。
-- 右上角可把**成长图分享**给微信等系统社交应用；首页「成长概览」下方另有一张**随窗口自适应的身高曲线小图**，不必进入图表页就能看到趋势。
+- 右上角可把**成长图分享**给微信等系统社交应用；首页「成长概览」下方另有一张**随窗口自适应的身高曲线小图**，不必进入图表页就能看到趋势。**轻点小图**进入完整图表页，**轻点概览里的身高 / 体重 / BMI 数值**进入数据添加页。
 
 ### 预测
 - 未满 4 岁或尚无实测：使用**中亲身高法（Tanner 公式）**。
@@ -52,7 +52,7 @@
 - **单位切换**：厘米 ↔ 英寸、千克 ↔ 磅；数据库始终以公制存储，仅在显示与录入处换算。
 - **三语界面**：简体中文 / 繁體中文 / English，切换即时生效。
 - **主题配色**按孩子分别设置，页面底色、卡片与文字色由主题色自动派生。
-- 首页右上角为**功能菜单**：添加新用户 / 导入导出数据 / 应用设置 / 隐私政策 / 免责声明 / 关于 / 退出；设置页只保留语言、单位与时间格式，**检查更新**与**分享应用**在关于页。
+- 首页右上角为**右键式浮层菜单**：靠右弹在设置图标正下方，无标题、无取消，再次点图标或点菜单外任意区域即隐藏；菜单项依次为添加新用户 / 导入导出数据 / 应用设置 / 隐私政策 / 免责声明 / 关于 / 退出。设置页只保留语言、单位与时间格式；**关于页**新增 App 简要介绍与可点击的**检查更新地址**，并保留检查更新、分享应用。
 - 内置**免责声明**与**隐私政策**；导入导出完成后弹出逐表条数确认框；**退出应用需确认**，避免误触丢失数据。
 
 ---
@@ -89,7 +89,7 @@
 
 **Android**：APK 未上架应用商店，安装时请按提示允许「安装未知应用」（不同品牌在设置 → 安全/应用管理里授权）。若 Play Protect 提示，选择**仍要安装**。
 
-> **从 v1.1.0 及更早版本升级请注意**：v1.1.1 起 Android 包名由 `com.growth.app` 改为 `com.growstar.app`，系统会把新版识别为另一个应用。请先在旧版「导出 → JSON」备份，卸载旧版、安装新版后再「导入 → JSON」，否则旧数据不会自动出现。
+> **从 v1.1.0 及更早版本升级请注意**：自 v1.1.1 起 Android 包名由 `com.growth.app` 改为 `com.growstar.app`，系统会把新版识别为另一个应用。请先在旧版「导出 → JSON」备份，卸载旧版、安装新版后再「导入 → JSON」，否则旧数据不会自动出现。
 
 **Windows**：解压到任意文件夹后双击 `GrowStar.exe`。程序为自包含版本（已打包 Windows App SDK 运行时），无需另装 .NET。由于未使用商业签名证书，SmartScreen 可能提示「Windows 已保护你的电脑」，点击**更多信息 → 仍要运行**即可。数据保存在 `%LOCALAPPDATA%` 下，不随文件夹移动而丢失，覆盖安装不影响数据。
 

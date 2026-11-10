@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-![Version](https://img.shields.io/badge/version-1.1.1-brightgreen)
+![Version](https://img.shields.io/badge/version-1.1.2-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Android%207.0%2B%20%7C%20Windows%2010%20(2004)%2B-blue)
 ![Network](https://img.shields.io/badge/network-none-success)
 ![Languages](https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-orange)
@@ -20,9 +20,9 @@ A private, offline-first growth tracker for children and teens. Log height and w
 
 | Platform | File | Notes |
 | --- | --- | --- |
-| Android | [**GrowStar-v1.1.1-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-android.apk) · 25 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
-| Android (store bundle) | [**GrowStar-v1.1.1-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-android.aab) · 24 MB | App Bundle for Google Play uploads only — cannot be installed directly |
-| Windows | [**GrowStar-v1.1.1-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.1-windows-x64.zip) · 71 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowStar.exe` |
+| Android | [**GrowStar-v1.1.2-android.apk**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-android.apk) · 25 MB | Android 7.0 (API 24) or later, ARM / ARM64. Sideloaded — see [Installing](#installing) |
+| Android (store bundle) | [**GrowStar-v1.1.2-android.aab**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-android.aab) · 24 MB | App Bundle for Google Play uploads only — cannot be installed directly |
+| Windows | [**GrowStar-v1.1.2-windows-x64.zip**](https://github.com/loylin-git/GrowStar-Releases/releases/latest/download/GrowStar-v1.1.2-windows-x64.zip) · 71 MB | Windows 10 build 19041 or later, x64. Unzip and run `GrowStar.exe` |
 
 Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Releases/releases)**
 
@@ -40,7 +40,7 @@ Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Rel
 - **Reference percentile bands** P3 / P15 / P50 / P85 / P97 from **CDC 2000** (default) or **WHO 2007**, switchable inside the chart.
 - A **predicted growth path in green** (dashed) and a green **estimated adult height** label continuing from the latest measurement; **recorded measurements stay red**, so actual vs. predicted is obvious at a glance.
 - The horizontal axis shows the most recent **5 years** by default (zoom out to 20 years), and the vertical window centers the curves automatically. Default ranges: 30–180 cm, 0–80 kg, BMI 10–30, extended automatically when measurements exceed them.
-- **Share the chart** as an image through the system share sheet; the home page also shows a **window-sized static height curve** right under the summary.
+- **Share the chart** as an image through the system share sheet; the home page also shows a **window-sized static height curve** right under the summary. **Tap the mini chart** to open the full chart page, or **tap the height / weight / BMI numbers** in the summary to jump to the data entry page.
 
 ### Prediction
 - Under 4 years old, or with no measurement yet: **mid-parental (Tanner) method**.
@@ -52,7 +52,7 @@ Browse all versions: **[Releases →](https://github.com/loylin-git/GrowStar-Rel
 - **Units**: cm ↔ inch, kg ↔ lb. Data is always stored metric; conversion happens at display and entry only.
 - **Interface language**: Simplified Chinese, Traditional Chinese, English — switches instantly, no restart.
 - **Theme color** per child; page background, cards, and text are derived from the chosen accent.
-- The top-right **menu** lists: Add new user / Import & export / App settings / Privacy policy / Disclaimer / About / Exit. Settings now only holds language, units, and date-time format; **check for updates** and **share the app** live on the About page.
+- The top-right **menu** opens as a compact context menu right below the gear icon (no title, no Cancel): Add new user / Import & export / App settings / Privacy policy / Disclaimer / About / Exit. Tap the icon again or anywhere outside to dismiss it. Settings only holds language, units, and date-time format; the **About** page carries a short app description, the clickable **update URL**, **check for updates**, and **share the app**.
 - **Disclaimer** and **privacy policy** built in; import/export shows a per-table record count when done; **exit confirmation** so a stray back-press cannot discard work.
 
 ---
@@ -89,7 +89,7 @@ The future curve follows the `R` percentile line with a time remap, so it starts
 
 **Android** — the APK is not distributed through Google Play, so allow installation from your browser/files app when prompted ("Install unknown apps"), then open the APK. Android may show a Play Protect notice for sideloaded apps; choose **Install anyway**.
 
-> **Upgrading from v1.1.0 or earlier:** the Android package name changed from `com.growth.app` to `com.growstar.app`, so Android treats this as a different app. **Export → JSON** in the old version first, uninstall it, install v1.1.1, then **Import → JSON**. Old data will not appear automatically.
+> **Upgrading from v1.1.0 or earlier:** the Android package name changed from `com.growth.app` to `com.growstar.app`, so Android treats this as a different app. **Export → JSON** in the old version first, uninstall it, install v1.1.2, then **Import → JSON**. Old data will not appear automatically.
 
 **Windows** — unzip to any folder and run `GrowStar.exe`. The build is self-contained (includes the Windows App SDK runtime), so nothing else needs installing. Because it is not signed with a commercial certificate, SmartScreen may say "Windows protected your PC" — click **More info → Run anyway**. Your data is stored under `%LOCALAPPDATA%`, not next to the exe, so it survives moving the folder.
 
